@@ -26,3 +26,5 @@ pcb-defect-detection-yolov5/
 │ └── example_prediction.jpg # Example prediction visual 
 └── README.md
 
+![alt text](200Epoch5n.jpg)
+![alt text](200EpochResult.png)
