@@ -1,0 +1,28 @@
+# 🛠️ PCB Defect Detection using YOLOv5
+
+This project was built using the YOLOv5 architecture to automatically detect manufacturing defects on circuit boards (PCBs). The model was trained using a specially labeled dataset and successful predictions were achieved on test images.
+
+---
+
+## 📌 Project Features
+
+- ✅ Custom PCB dataset labeled with Roboflow
+- ✅ Training and prediction with YOLOv5 (PyTorch)
+- ✅ Easy training and test scripts via the command line
+- ✅ Visualization of inference outputs
+- ✅ Automatic naming of training logs
+
+---
+
+## 📁 Folder Structure
+pcb-defect-detection-yolov5/
+├── yolov5/ # YOLOv5 codes (cloned from ultralytics)
+├── dataset/
+│ └── data.yaml # data.yaml obtained from Roboflow
+├── scripts/
+│ ├── train_pcb_model.py # Training script
+│ └── run_inference_pcb.py # Prediction (inference)
+├── results/
+│ └── example_prediction.jpg # Example prediction visual 
+└── README.md
+
