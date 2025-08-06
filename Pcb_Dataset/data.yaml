@@ -1,0 +1,13 @@
+train: C:/Users/sentu/OneDrive/Desktop/Pcb_Dataset/images/train
+val: C:/Users/sentu/OneDrive/Desktop/Pcb_Dataset/images/valid
+test: ../test/images
+
+nc: 5
+names: ['Mousebite', 'Open', 'Pin-Hole', 'Short', 'Spur']
+
+roboflow:
+  workspace: test-ev3hp
+  project: pcb-quality-control-60ppb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-ev3hp/pcb-quality-control-60ppb/dataset/1
