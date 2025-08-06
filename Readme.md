@@ -14,9 +14,8 @@ This project was built using the YOLOv5 architecture to automatically detect man
 
 ---
 
-![alt text](200Epoch5n.jpg)
-![alt text](200EpochResult.png)
-
+![alt text](Result.jpg)
+![alt text](Result2.png)
 
 ## 📁 Folder Structure
 pcb-defect-detection-yolov5/
@@ -26,6 +25,5 @@ pcb-defect-detection-yolov5/
 ├── scripts/
 │ ├── train_pcb_model.py # Training script
 │ └── run_inference_pcb.py # Prediction (inference)
-├── results/
 │ └── example_prediction.jpg # Example prediction visual 
 └── README.md
