@@ -22,6 +22,7 @@ pcb-defect-detection-yolov5/
 ├── yolov5/ # YOLOv5 codes (cloned from ultralytics)
 ├── dataset/
 │ └── data.yaml # data.yaml obtained from Roboflow
+├── Results/ # Results of trainings with different data sets and epochs
 ├── scripts/
 │ ├── train_pcb_model.py # Training script
 │ └── run_inference_pcb.py # Prediction (inference)
