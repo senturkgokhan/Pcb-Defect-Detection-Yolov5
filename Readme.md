@@ -1,6 +1,6 @@
 # 🛠️ PCB Defect Detection using YOLOv5
 
-This project was built using the YOLOv5 architecture to automatically detect manufacturing defects on circuit boards (PCBs). The model was trained using a specially labeled dataset and successful predictions were achieved on test images.
+This project was developed using the YOLOv5 architecture to automatically detect manufacturing defects in circuit boards (PCBs). The dataset was labeled using Roboflow, and the model was trained in Google Colab. The repo contains Python code supporting the training and testing processes.
 
 ---
 
